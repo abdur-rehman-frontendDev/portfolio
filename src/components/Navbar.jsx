@@ -29,14 +29,14 @@ const Navbar = () => {
                         Portfolio
                     </NavLink>
                 </li> */}
-                <li className="navbar-item">
+                {/* <li className="navbar-item">
                     <NavLink
                         to="/blog"
                         className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
                     >
                         Blog
                     </NavLink>
-                </li>
+                </li> */}
                 <li className="navbar-item">
                     <NavLink
                         to="/contact"
